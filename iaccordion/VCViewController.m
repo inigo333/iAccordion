@@ -7,7 +7,7 @@
 //
 
 #import "VCViewController.h"
-#import "KPAccordionView.h"
+#import "AccordionView.h"
 
 @interface VCViewController ()
 
@@ -22,7 +22,7 @@
 
 - (Class)viewClass
 {
-    return [KPAccordionView class];
+    return [AccordionView class];
 }
 
 - (CGRect)viewFrame

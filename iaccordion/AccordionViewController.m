@@ -7,7 +7,7 @@
 //
 
 #import "AccordionViewController.h"
-#import "KPAccordionItemView.h"
+#import "AccordionItemView.h"
 
 //Number of points
 #define HORIZONTAL_OFFSET 50
@@ -143,7 +143,7 @@
 {
     for(NSNumber *object in items)
     {
-        KPAccordionItemView *view = [self viewForObject:object];
+        AccordionItemView *view = [self viewForObject:object];
         [self.items addObject:view];
         [self.view insertSubview:view atIndex:0];
     }
@@ -152,9 +152,9 @@
 }
 
 
-- (KPAccordionItemView *)viewForObject:(NSNumber *)object
+- (AccordionItemView *)viewForObject:(NSNumber *)object
 {
-    KPAccordionItemView *view = [[KPAccordionItemView alloc] initWithDelegate:self];
+    AccordionItemView *view = [[AccordionItemView alloc] initWithDelegate:self];
     UILabel *label = [[UILabel alloc] init];
     
     view.backgroundColor = [self stackColor];
@@ -303,7 +303,7 @@
 
 
 - (void)didPan:(UIPanGestureRecognizer *)recognizer
-          view:(KPAccordionItemView *)view
+          view:(AccordionItemView *)view
 {
     CGPoint touchLocation = [recognizer locationInView:self.view];
     NSInteger index = [self.items indexOfObject:view];
@@ -372,7 +372,7 @@
 
 
 - (void)didTap:(UITapGestureRecognizer *)recognizer
-          view:(KPAccordionItemView *)view
+          view:(AccordionItemView *)view
 {
     NSInteger index = [self.items indexOfObject:view];
     

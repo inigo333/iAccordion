@@ -6,10 +6,10 @@
 //  Copyright (c) 2013 Inigo Mato. All rights reserved.
 //
 
-#import "KPAccordionItemView.h"
+#import "AccordionItemView.h"
 
 
-@implementation KPAccordionItemView
+@implementation AccordionItemView
 
 
 - (id)initWithDelegate:(id)delegate

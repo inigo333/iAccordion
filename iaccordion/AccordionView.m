@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Inigo Mato. All rights reserved.
 //
 
-#import "KPAccordionView.h"
-#import "KPAccordionConfiguration.h"
+#import "AccordionView.h"
+#import "AccordionConfiguration.h"
 
 //String definitions
 #define TOP_STACK_NOT_SHOWN_AMOUNT      @"topStackNotShown"
@@ -17,7 +17,7 @@
 #define BOTTOM_STACK_HIDDEN_AMOUNT      @"bottomStackHidden"
 
 
-@interface KPAccordionView ()
+@interface AccordionView ()
 
 @property (nonatomic, strong) NSMutableArray *items;
 @property (nonatomic, strong) NSMutableArray *yOriginsArray;
@@ -37,7 +37,7 @@
 @end
 
 
-@implementation KPAccordionView
+@implementation AccordionView
 
 - (id)initWithFrame:(CGRect)frame
 {

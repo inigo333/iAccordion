@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface KPAccordionView : UIView < UIGestureRecognizerDelegate >
+@interface AccordionView : UIView < UIGestureRecognizerDelegate >
 
 @property (nonatomic, assign) NSInteger topStackNotShownHeight;
 @property (nonatomic, assign) NSInteger topStackShownHeight;

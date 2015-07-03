@@ -13,8 +13,8 @@
 		6A522F3B1B472C77001A7D0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A522F391B472C77001A7D0F /* LaunchScreen.xib */; };
 		6A522F471B472C77001A7D0F /* iaccordionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A522F461B472C77001A7D0F /* iaccordionTests.m */; };
 		6A522F551B472CA3001A7D0F /* AccordionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A522F511B472CA3001A7D0F /* AccordionViewController.m */; };
-		6A522F561B472CA3001A7D0F /* KPAccordionItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A522F541B472CA3001A7D0F /* KPAccordionItemView.m */; };
-		6A73616C1B47311400BCB9D7 /* KPAccordionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A73616B1B47311400BCB9D7 /* KPAccordionView.m */; };
+		6A522F561B472CA3001A7D0F /* AccordionItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A522F541B472CA3001A7D0F /* AccordionItemView.m */; };
+		6A73616C1B47311400BCB9D7 /* AccordionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A73616B1B47311400BCB9D7 /* AccordionView.m */; };
 		6A73616F1B47314300BCB9D7 /* VCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A73616E1B47314300BCB9D7 /* VCViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -41,11 +41,11 @@
 		6A522F461B472C77001A7D0F /* iaccordionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iaccordionTests.m; sourceTree = "<group>"; };
 		6A522F501B472CA3001A7D0F /* AccordionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccordionViewController.h; sourceTree = "<group>"; };
 		6A522F511B472CA3001A7D0F /* AccordionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccordionViewController.m; sourceTree = "<group>"; };
-		6A522F521B472CA3001A7D0F /* KPAccordionConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAccordionConfiguration.h; sourceTree = "<group>"; };
-		6A522F531B472CA3001A7D0F /* KPAccordionItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAccordionItemView.h; sourceTree = "<group>"; };
-		6A522F541B472CA3001A7D0F /* KPAccordionItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPAccordionItemView.m; sourceTree = "<group>"; };
-		6A73616A1B47311400BCB9D7 /* KPAccordionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPAccordionView.h; sourceTree = "<group>"; };
-		6A73616B1B47311400BCB9D7 /* KPAccordionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPAccordionView.m; sourceTree = "<group>"; };
+		6A522F521B472CA3001A7D0F /* AccordionConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccordionConfiguration.h; sourceTree = "<group>"; };
+		6A522F531B472CA3001A7D0F /* AccordionItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccordionItemView.h; sourceTree = "<group>"; };
+		6A522F541B472CA3001A7D0F /* AccordionItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccordionItemView.m; sourceTree = "<group>"; };
+		6A73616A1B47311400BCB9D7 /* AccordionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccordionView.h; sourceTree = "<group>"; };
+		6A73616B1B47311400BCB9D7 /* AccordionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccordionView.m; sourceTree = "<group>"; };
 		6A73616D1B47314300BCB9D7 /* VCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCViewController.h; sourceTree = "<group>"; };
 		6A73616E1B47314300BCB9D7 /* VCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,11 +95,11 @@
 				6A73616E1B47314300BCB9D7 /* VCViewController.m */,
 				6A522F501B472CA3001A7D0F /* AccordionViewController.h */,
 				6A522F511B472CA3001A7D0F /* AccordionViewController.m */,
-				6A522F521B472CA3001A7D0F /* KPAccordionConfiguration.h */,
-				6A522F531B472CA3001A7D0F /* KPAccordionItemView.h */,
-				6A522F541B472CA3001A7D0F /* KPAccordionItemView.m */,
-				6A73616A1B47311400BCB9D7 /* KPAccordionView.h */,
-				6A73616B1B47311400BCB9D7 /* KPAccordionView.m */,
+				6A522F521B472CA3001A7D0F /* AccordionConfiguration.h */,
+				6A522F531B472CA3001A7D0F /* AccordionItemView.h */,
+				6A522F541B472CA3001A7D0F /* AccordionItemView.m */,
+				6A73616A1B47311400BCB9D7 /* AccordionView.h */,
+				6A73616B1B47311400BCB9D7 /* AccordionView.m */,
 				6A522F371B472C77001A7D0F /* Images.xcassets */,
 				6A522F391B472C77001A7D0F /* LaunchScreen.xib */,
 				6A522F2A1B472C77001A7D0F /* Supporting Files */,
@@ -236,8 +236,8 @@
 				6A73616F1B47314300BCB9D7 /* VCViewController.m in Sources */,
 				6A522F301B472C77001A7D0F /* AppDelegate.m in Sources */,
 				6A522F2D1B472C77001A7D0F /* main.m in Sources */,
-				6A522F561B472CA3001A7D0F /* KPAccordionItemView.m in Sources */,
-				6A73616C1B47311400BCB9D7 /* KPAccordionView.m in Sources */,
+				6A522F561B472CA3001A7D0F /* AccordionItemView.m in Sources */,
+				6A73616C1B47311400BCB9D7 /* AccordionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

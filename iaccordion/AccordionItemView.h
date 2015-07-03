@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface KPAccordionItemView : UIView
+@interface AccordionItemView : UIView
 
 @property (nonatomic, weak) id delegate;
 
